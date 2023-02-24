@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #0f172a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px;
+}
+@media screen and (max-width: 767px) {
+  .latest-match-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.team-logo {
+  width: 70%;
+}
+@media screen and (max-width: 767px) {
+  .team-logo {
+    width: 50%;
+  }
+}
+.latest-match-heading {
+  color: #ffffff;
+  font-family: 'Bree serif';
+}
+.date {
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-weight: bold;
+  font-size: 20px;
+}
+.paragraph {
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-size: 15px;
+}
+.headings {
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-size: 22px;
+  font-weight: 500;
+}
